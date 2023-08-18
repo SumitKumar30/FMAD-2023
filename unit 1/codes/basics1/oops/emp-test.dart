@@ -28,6 +28,11 @@ void main() {
 
   print('Employee 2 details: $obj2');
 
+  Employee obj3 = new Employee.EmpCustom3(105, 'xyz@ncuindia.edu',
+       address: 'New York');
+
+  Employee obj4 = new Employee.EmpCustom4(110, 'Gurugram', 1000.00, 'John');
+
   // Employee emp2 = Employee.initialInput(20001, "Sumit", 89000.50);
   // Employee emp3 =
   //     Employee.requiredInput(id: 5001, name: "Amit", salary: 5000.00);

@@ -47,6 +47,8 @@ class Employee {
     print('This employee object is initialized!!');
   }
 
+  // Employee(this._address, this._email);
+
   // Named constructor
   Employee.EmpCustom(int id, String name, String address, double salary,
       String phone, String email) {
@@ -58,7 +60,8 @@ class Employee {
     this._phone = phone;
   }
 
-  Employee.EmpCustom2(this._id, this._name, this._address, this._email, this._phone, this._salary);
+  Employee.EmpCustom2(this._id, this._name, this._address, this._email,
+      this._phone, this._salary);
 
   void getInput(int id, String name, double salary) {
     this._id = id;
@@ -66,6 +69,11 @@ class Employee {
     this._salary = salary;
   }
 
+  // Optional arguments: 1. Named optional args 2. positional optional args
+
+  Employee.EmpCustom3(this._id, this._email, {String? name, String? address});
+
+  Employee.EmpCustom4(this._id, this._address ,[double? salary, String? name, String? phone]);
   // void setSalary(double salary) {
   //   this._salary = salary;
   // }
