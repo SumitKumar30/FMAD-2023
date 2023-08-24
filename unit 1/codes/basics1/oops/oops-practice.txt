@@ -66,9 +66,12 @@ If the price is zero or it is negative - give an error message: "Price not valid
 |  + getPrice () : double |
 
 ======================================= MIXINS ======================================
+
 5. For the student class in Question 2, create a mixin to implement the student's behavior using following methods: 
     i. sketchDoodles() --> sketching doodles
     ii. reviewTermPaper() --> read the papers
     iii. powerRun() --> Run for 5 miles
 
+6. Create a class called Calculator with methods called sum, diff, prod, and div that print the sum/difference/product/division of any two integers you give it. Extract the logic in sum/diff/prod/div to a mixin called BasicCalc.
+Use the mixin in Calculator class. Create another class called ScientificCalculator that extends the Calculator class and apply the concept of mixins to add more functionality to it.
 
