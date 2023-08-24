@@ -65,6 +65,10 @@ If the price is zero or it is negative - give an error message: "Price not valid
 |  - price: Double  |
 |  + getPrice () : double |
 
-
+======================================= MIXINS ======================================
+5. For the student class in Question 2, create a mixin to implement the student's behavior using following methods: 
+    i. sketchDoodles() --> sketching doodles
+    ii. reviewTermPaper() --> read the papers
+    iii. powerRun() --> Run for 5 miles
 
 
