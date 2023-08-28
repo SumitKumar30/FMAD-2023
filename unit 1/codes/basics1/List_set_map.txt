@@ -1,0 +1,19 @@
+================== List | SETs | MAPs ===================
+
+1. Write a program that reads a file and displays the words of that file as a list.
+
+	First, display all words. !
+	Then display them in reverse order. !
+	Then display them with all plurals (ending with "s"). !
+	Then display them with all plural words removed and the size of the updated list. 
+	Also, remove all the duplicate/repeated words 
+
+2. Write a program that keeps a map in which both keys and values are strings—the names of students and their course grades. Prompt the user of the program to add or remove students, modify grades, or print all grades. 
+   The printout should be formatted like this:
+
+			Carl: B+
+
+			Joe: C
+
+			Sarah: A
+
