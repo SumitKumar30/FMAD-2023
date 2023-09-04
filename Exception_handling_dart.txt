@@ -1,0 +1,3 @@
+Exceptions in Dart
+
+P1. Write a Dart program to create Accounts class with 1 class member: amount, and two methods: makeWithdraw() and creditAmount(). Create a custom exception class "WithdrawException" if the amount to be withdrawn is greater than the amount left in the bank account.  
